@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <h1>Login</h1>
+
+        <div>
+            <p>Gmail:</p>
+            <input type="email">
+        </div>
+
+        <div>
+            <p>Password:</p>
+            <input type="password">
+        </div>
+        <div>
+            <button onclick="localizacao(obterLocalizacao)">Login</button>
+
+        </div>
+
+
+    </form>
+    <div class="informacao">
+        <h2>informacao do endereco</h2>
+        <p id="mostrarRua">Rua:</p>
+        <p id="mostrarBairro">Bairro:</p>
+        <p id="mostrarCidade">Cidade:</p>
+        <p id="mostrarEstado">Estado:</p>
+        <p id="mostrarCep">Cep:</p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url("https://img.freepik.com/fotos-premium/ceu-do-por-do-sol-na-praia-para-o-fundo_34142-746.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    gap: 5px;
+    border: 2px  solid black;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.informacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    gap: 5px;
+    border: 2px  solid black;
+    width: 450px;
+    height: 350px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+}
